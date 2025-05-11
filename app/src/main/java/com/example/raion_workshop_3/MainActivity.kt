@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Raion_Workshop_3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    MainScreen()
                 }
             }
         }
